@@ -2,82 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
 }
-
-h1 {
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 400;
-  font-size: 72px; 
-  color: #2c3e50;
-}
-
-.navbar-brand {
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 200;
-  color: white;
-}
-
-h4 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  text-transform: uppercase;
-  font-size: 18px;
-  color: gray;
-}
-
-.jumbotron {
-  background: none;
-}
-
-.navbar {
-  background-color: #fd855b;
-}
-
-.start-btn {
-  border-radius: 25px;
-  padding: 10px 25px 10px 25px;
-  font-size: 16px;
-  margin-top: 20px;
-  text-transform: uppercase;
-  font-weight: 300;
-  background-color: #fd855b;
-  color: white;
-  border: none;
-}
-
-.start-btn:hover {
-  color: white;
-  background-color: #2c3e50;
-}
-
-a:hover, i:hover {
-  color: #2c3e50;
-}
-
-.fa-times-circle{
-  color: #fd855b;
-}
-
-.fa-times-circle:hover, .fa-pen:hover, .fa-save:hover{
-  color: #2c3e50 !important;
-  font-size: 150%;
-}
-
-li {
-  color: #2c3e50;
-  font-weight: 300;
-  text-transform: uppercase;
-  font-size: 14px;
-  border-radius: 0px;
-}
-
-li:hover {
-  background-color: rgb(245, 245, 245);
-}
-
-/*****************************/
 
 .save-note {
   display: none;
@@ -100,21 +25,21 @@ li:hover {
 .note-textarea {
   resize: none;
   height: calc(100% - 63px);
-  color: #2c3e50;
-  font-weight: 200;
+  padding-top: 15px;
 }
 
 .note-title {
+  height: 50px;
   margin-top: 13px;
-  font-size: 2rem;
-  color: #2c3e50;
+  font-size: 3rem;
 }
 
 .note-title:read-only, .note-textarea:read-only {
-  color: rgb(92, 92, 92);
+  color: #757575;
 }
 
 .list-container .card {
+  height: calc(100vh - 70px);
   border-bottom: none;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
@@ -122,7 +47,6 @@ li:hover {
 
 .list-container {
   padding-left: 0;
-  padding-right: 0;
 }
 
 .list-container .list-group,
@@ -143,10 +67,4 @@ li:hover {
   border-right: none;
   padding: 20px;
   cursor: pointer;
-}
-
-@media only screen and (min-width: 576px) {
-  .list-container .card {
-    height: calc(100vh - 70px);
-  }
 }
