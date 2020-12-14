@@ -1,0 +1,22 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbabauta/Note-Taker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbabauta/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/fbabauta/Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
