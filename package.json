@@ -1,22 +1,14 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "An app for saving, viewing, and deleting notes.",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fbabauta/Note-Taker.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fbabauta/Note-Taker/issues"
-  },
-  "homepage": "https://github.com/fbabauta/Note-Taker#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.16.4"
   }
 }
