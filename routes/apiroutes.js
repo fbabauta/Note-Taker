@@ -2,7 +2,7 @@ const router = require("express").Router();
 var fs = require("fs");
 
 
-/ require data array from db.json
+// require data array from db.json
 const jsonData = require("../db/db");
 
 module.exports = function (app) {
@@ -37,7 +37,7 @@ module.exports = function (app) {
             if (deleteNoteID == jsonData[i].id) {
                 jsonData.splice(i, 1);
             }
-        };
+        }
 
         renderDataID(jsonData);
 
@@ -55,4 +55,4 @@ function renderDataID(arr) {
     for (var i = 0; i < arr.length; i++) {
         arr[i].id = i + 1;
     }
-};
+}
