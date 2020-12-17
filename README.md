@@ -10,8 +10,8 @@ This simple note taking application allows you to save notes with a title and pl
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Technologies](#technologies)
+  - [Usage](#usage)
   - [Finished Product](#finished-product)
-  - [Credits](#credits)
   - [Questions](#questions)
 
 ## Technologies
@@ -23,12 +23,21 @@ This simple note taking application allows you to save notes with a title and pl
 * CSS
 * Bootstrap
 
+## Usage
+* Navigate to the [deployed Heroku App](https://serene-ocean-62587.herokuapp.com/).
+* Click the get started button.
+* Add a note title and body in the provided text box.
+* Save your note by clicking the save icon.
+* View a list of your saved notes on the left hand side.
+* Click on any note in the list to view your full note.
+* Create a new note at any time by clicking the pencil button.
+* Delete any note by pressing it's "X" icon.
+
+
 ## Finished Product
-
-
-
-
-
-## Credits
+View deployed Heroku app [here](https://serene-ocean-62587.herokuapp.com/).
 
 ## Questions
+
+If you have any questions about the repo, feel free to contact me:
+Github: [fbabauta](https://github.com/fbabauta) | Email: francine.babauta@outlook.com
